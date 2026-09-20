@@ -23,11 +23,13 @@ public class App_controller {
 
     public App_controller(){
         obj.add(new App_Modal(1,"RAnjith","ECE"));
+        obj.add(new App_Modal(2,"Barath","ECE"));
     }
 
     @PostMapping("/insert")
     public void Insert() {
-        App_Modal obj = new App_Modal(1,"ranjith","ECE");
+
+         obj.add(new App_Modal(1,"ranjith","ECE"));
     }
 }
 
