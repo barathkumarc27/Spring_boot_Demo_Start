@@ -27,7 +27,7 @@ public class App_controller {
     }
 
     @PostMapping("/insert")
-    public void Insert() {
+    public void Inserted() {
 
          obj.add(new App_Modal(1,"ranjith","ECE"));
     }
